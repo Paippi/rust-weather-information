@@ -1,6 +1,6 @@
 [package]
 name = "rust_weather_information"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Paippi <samuli.piippo@outlook.com>"]
 edition = "2021"
 
