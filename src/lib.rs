@@ -1,4 +1,4 @@
-//! Crate for to retreive weather information using rust!
+//! Crate to retrieve weather information using rust!
 //!
 //! # Examples
 //!
