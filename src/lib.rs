@@ -23,9 +23,9 @@
 //! Ok(())
 //! ```
 pub mod weather {
-    //! Module for retreiving weather information.
+    //! Module for retrieving weather information.
 
-    /// Retruns the current weather infromation from [openweathermap API](https://api.openweathermap.org)
+    /// Returns the current weather infromation from [openweathermap API](https://api.openweathermap.org)
     pub async fn get_current_weather(weather_api_key: &String, location: &String) -> Option<f64> {
         let url = format!(
         "https://api.openweathermap.org/data/2.5/weather?q={location}&appid={weather_api_key}&units=metric "
